@@ -2,15 +2,17 @@ import java.util.Scanner;
 	public class DogAgeinWords{
 
 		public static int displayDogAge(String name, int humanYears){
+			String dogName = name;
 			int dogAge;
+			String result;
 			if(humanYears >= 1){
 				dogAge = 7 * humanYears;
-				System.out.printf("%s is %d years old.%n", name, dogAge);}
-
-			else{dogAge = 0;
+				result = dogName + " " + "is" + " " + Integer.toString(dogAge) + " " + "years old.";}
+				
+			else{	result = "";
 				System.out.println("Enter valid input");			
 }
-			return dogAge;
+			return result;
 }
 
 		
