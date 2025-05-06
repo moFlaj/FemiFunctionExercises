@@ -1,7 +1,7 @@
 import java.util.Scanner;
 	public class DogAgeinWords{
 
-		public static int displayDogAge(String name, int humanYears){
+		public static String displayDogAge(String name, int humanYears){
 			String dogName = name;
 			int dogAge;
 			String result;
