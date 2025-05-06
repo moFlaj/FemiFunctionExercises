@@ -7,7 +7,8 @@ import java.util.Scanner;
 			String result;
 			if(humanYears >= 1){
 				dogAge = 7 * humanYears;
-				result = dogName + " " + "is" + " " + Integer.toString(dogAge) + " " + "years old.";}
+				result = dogName + " " + "is" + " " + Integer.toString(dogAge) + " " + "years old.";
+				System.out.println(result);}
 				
 			else{	result = "";
 				System.out.println("Enter valid input");			
